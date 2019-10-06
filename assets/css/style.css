@@ -1,0 +1,141 @@
+/* navbar */
+.yeni-bar {
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid lightgrey;
+  background: white;
+}
+
+#posiziya {
+  width: 960px;
+  margin: auto;
+  height: 50px;
+}
+
+.logo {
+  background: #4aaaa5;
+  width: 300px;
+  float: left;
+  text-align: center;
+  color: white;
+  height: 58px;
+  padding: 20px;
+}
+
+.nav-sol {
+  float: right;
+  padding: 20px;
+}
+
+.nav-sol li {
+  display: inline;
+  padding: 0 15px;
+  border-right: 1px solid grey;
+}
+
+.nav-sol li:last-child {
+  border-right: none;
+}
+/* navbar */
+
+/* kontent */
+.entire {
+  margin: auto;
+  width: 960px !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex: 1 0 auto;
+}
+
+.main {
+  width: 650px;
+  float: left;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  background: white;
+}
+
+.kontent {
+  padding-top: 15px;
+}
+
+.sidebar {
+  float: left;
+  width: 270px !important;
+  border: 1px solid lightgrey;
+  padding: 15px;
+  margin-left: 40px;
+  background: white;
+}
+
+h2,
+h3 {
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 15px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p,
+span {
+  color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  margin-bottom: 5px;
+}
+input {
+  margin-bottom: 10px;
+}
+
+.col-lg-6 img {
+  width: 290px;
+  margin: 10px 0;
+  z-index: 1;
+  position: relative;
+}
+
+.col-lg-6 h3 {
+  color: white;
+  background: #4aaaa5;
+  text-align: center;
+  padding: 10px;
+  margin-top: -70px;
+  width: 290px;
+  z-index: 2;
+  position: absolute;
+}
+/* kontent */
+
+/* footer */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/trees.png");
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  flex-shrink: 0;
+  text-align: center;
+  background: rgb(136, 136, 136);
+  height: 30px;
+  padding: 7px;
+}
+
+.footer p {
+  color: white;
+}
+/* footer */
